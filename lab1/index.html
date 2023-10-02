@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-height, initial-scale=1.0">
-    <link href="imgs/icon.png" type="image/gif" rel="shortcut icon"/>
+    <link href="imgs/icon.png" type="image/gif" rel="shortcut icon" />
     <title>Document @@@</title>
 </head>
+
 <body>
     Hello world!!!
     <p>
@@ -24,5 +26,42 @@
         Compro
     </h2>
     <a href="./demo.html">go to demo</a>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">1,1-1,2</td>
+                <td rowspan="3">1,3-3,3</td>
+            </tr>
+            <tr>
+                <td>2,1</td>
+                <td>2,2</td>
+            </tr>
+            <tr>
+                <td>3,1</td>
+                <td>3,2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Note:</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>
+        <a href="https://validator.w3.org/check/referer">
+            <img src=http://mumstudents.org/cs472/2013-09/images/w3c-html.png alt="Validate" />
+        </a>
+    </p>
+
 </body>
+
 </html>
